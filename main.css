@@ -1,34 +1,9 @@
-body{
-    font-size: 30px;
+.container1{
+  background: #eee;
+  margin-top: 4vh;
 }
-@media (max-width: 767px) {
-    body{
-        background:red;
-        transition:1s;
-        font-size: 10px;
-    }
-}
-@media (max-width: 480px) {
-        body{
-        background:gold;
-            transition:1s;
-    }
-}
-@media (min-width: 768px) and (max-width: 979px) {
-        body{
-        background:blue;
-            transition:1s;
-    }
-}
-@media (min-width: 980px) {
-        body{
-        background:lightgreen;
-            transition:1s;
-    }
-}
-@media (min-width: 1200px) {
-        body{
-        background:lightblue;
-            transition:1s;
-    }
+.row div1{
+  border: 1px solid red;
+  background: gold;
+  height: 60px;
 }
